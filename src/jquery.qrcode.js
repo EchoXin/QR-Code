@@ -83,7 +83,8 @@
 
 		return this.each(function(){
 			var element	= options.render == "canvas" ? createCanvas() : createTable();
-			$(element).appendTo(this);
+      $(element).attr('id', 'canvas');
+      $(element).appendTo(this);
 		});
 	};
 })( jQuery );
