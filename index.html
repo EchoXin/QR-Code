@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <title>Example</title>
+<head>
+<title>basic example</title>
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="vendor.bundle.js" type="text/javascript" charset="utf-8" defer></script>
+<script src="bundle.js" type="text/javascript" charset="utf-8" defer></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<script type="text/javascript" src="../jquery.qrcode.min.js"></script>
+-->
+<script type="text/javascript" src="../src/jquery.qrcode.js"></script>
+<script type="text/javascript" src="../src/qrcode.js"></script>
 
-      <script src="vendor.bundle.js" type="text/javascript" charset="utf-8" defer></script>
-      <script src="bundle.js" type="text/javascript" charset="utf-8" defer></script>
-    </head>
-    <body class="container-fluid">
-      <h1>Example</h1>
+<input value='ho' id='email' placeholder="email">
+<button id='submit'>submit</button>
+<p>Render in table</p>
+<div id="qrcodeTable"></div>
+<!-- <p>Render in canvas</p> -->
+<!-- <div id="qrcodeCanvas"></div> -->
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-      ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.</p>
-    </body>
+
+</body>
 </html>
