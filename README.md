@@ -36,11 +36,16 @@ $('#submit').on('click', function () {
 ```
 
 [other option(Google Charts API)](http://www.hashbangcode.com/blog/easy-qr-code-generation-google-charts-api)
+
 Root URL: https://chart.googleapis.com/chart?
+
 Required Parameter:
-cht=qr
-chs=<width>x<height>
-chl=<data>
+
+cht=qr --  Specifies a QR code
+
+chs=<width>x<height> --  Image size
+
+chl=<data> -- The data to encode
 
 ```html
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
