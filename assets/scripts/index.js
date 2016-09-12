@@ -15,7 +15,7 @@ $('#email').on('keyup', function () {
 });
 $('#submit').on('click', function () {
   console.log(text);
-  $('#qrcodeTable').qrcode({
+  $('#qrcodeCanvas').qrcode({
     render: 'canvas',
     text: text,
   });

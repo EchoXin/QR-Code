@@ -57,6 +57,7 @@ $(document).ready(function(){
 });
 </script>
 ```
+[example](https://chart.googleapis.com/chart?chs=177x177&cht=qr&chl=www.google.com)
 
 ###decode a qr code
 
