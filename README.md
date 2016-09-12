@@ -81,6 +81,8 @@ $('#decode').on('click', function () {
 
 ##Next Step
 
+Fix Bug: some codes can't be decoded(eg: abc@abc.com)
+
 Use camera to scan a qr code
 
 Create Api to store the data from qr code
