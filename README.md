@@ -20,6 +20,7 @@ Even though the QR code may be damaged, information still can be taken out of it
 
 ###generate a qr code
 
+```javascript
 require('jquery.qrcode.js');
 $('#email').on('keyup', function () {
   text = $(this).val();
@@ -30,9 +31,11 @@ $('#submit').on('click', function () {
     text: text,
   });
 });
+```
 
 [other option](http://www.hashbangcode.com/blog/easy-qr-code-generation-google-charts-api)
 
+```html
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
@@ -41,9 +44,11 @@ $(document).ready(function(){
   });
 });
 </script>
+```
 
 ###decode a qr code
 
+```javascript
 let QrCode = require('qrcode-reader');
 let qr = new QrCode();
 
@@ -57,7 +62,7 @@ $('#decode').on('click', function () {
   img.src = canvas.toDataURL();
   qr.decode(img.src);
 });
-
+```
 
 ##Next Step
 
